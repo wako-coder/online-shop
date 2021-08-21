@@ -1,0 +1,176 @@
+.at-gsm {
+    overflow: hidden;
+    position: relative;
+}
+.at-gsm-container {
+    padding: 20px 10px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+}
+.at-gsm .at-gsm-close.notice-dismiss {
+    background: #c00;
+    color: #fff;
+    padding:10px 15px 10px 31px;
+    opacity: .6;
+    -webkit-transition: opacity 0.5s ease-in-out 0s;
+    -o-transition: opacity 0.5s ease-in-out 0s;
+    transition: opacity 0.5s ease-in-out 0s;
+}
+.at-gsm .at-gsm-close.notice-dismiss:hover{
+    opacity: 1;
+}
+.at-gsm .at-gsm-close.notice-dismiss:before {
+    color: #fff;
+    left: 9px;
+}
+.at-gsm-container .at-gsm-screenshot {
+    width: 20%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+.at-gsm-container .at-gsm-notice {
+    width: 70%;
+    display: block;
+    vertical-align: top;
+    padding: 0 20px;
+}
+.at-gsm-container .at-gsm-notice .plugin-install-notice {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.at-gsm-container a.at-gsm-btn:before{
+    margin: -2px 5px 0 -2px;
+    vertical-align: middle;
+}
+
+/*.at-gsm-container a.at-gsm-btn {
+    margin-top: 10px;
+    background: #f88c00;
+    box-shadow: none !important;
+    border:medium none;
+    text-shadow: none ;
+    font-size: 16px !important;
+}
+.at-gsm-container a.at-gsm-btn:hover,
+.at-gsm-container a.at-gsm-btn:focus{
+    background: #ef8c10;
+}*/
+.at-gsm a.button-primary,
+.at-gsm a.button-secondary {
+    text-decoration: none !important;
+}
+.at-gsm a.at-gsm-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 15px 10px 21px;
+    font-size: 13px;
+    line-height: 1.23076923;
+    text-decoration: none;
+}
+.at-gsm a.at-gsm-close:before {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+.at-gsm-notice h2 {
+    margin: 0 0 10px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.at-gsm-container .at-gsm-notice p {
+    margin: 1em 0;
+    padding: 0;
+    color: #72777c;
+}
+
+@media (max-width: 600px) {
+    .at-gsm-container .at-gsm-screenshot {
+        display: none;
+    }
+    .at-gsm-container .at-gsm-notice {
+        padding: 0;
+        width: 100%;
+    }
+}
+.notice.at-review-notice{
+    padding: 20px;
+}
+.at-review-notice .links {
+    margin: 10px 0;
+}
+
+
+
+.at-review-notice .links a .dashicons {
+    line-height: 1.2;
+}
+
+.at-review-notice .links a.button-primary {
+    margin-left: 0;
+}
+
+.at-review-notice .btn{
+    box-shadow: none !important;
+    border-radius: 5px;
+    border:medium none;
+     padding: 5px 15px;
+     height: auto;
+     text-transform: uppercase;
+     margin-right: 10px;
+     display: inline-block;
+
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.at-review-notice .btn:last-child{
+    margin-right: 0;
+}
+.at-default-btn{
+    background: #f88c00;   
+    color: #fff;  
+}
+.at-default-btn:hover,
+.at-default-btn:focus{
+    color:#fff;
+    background: #ef8c10;
+}
+.at-success-btn{
+    background: #46b450;
+    color: #fff;
+}
+.at-success-btn:hover,
+.at-success-btn:focus{
+    color:#fff;
+    background: #36a440;
+}
+
+.at-danger-btn{
+    background: #c00;
+    color: #fff;
+}
+.at-danger-btn:hover,
+.at-danger-btn:focus{
+    color:#fff;
+    background: #ec2020;
+}
